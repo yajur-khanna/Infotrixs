@@ -101,7 +101,7 @@ while True:
         show_favorite_cities()
     elif option == '4':
         city_to_refresh = input("Enter a city for auto-refresh: ")
-        refresh_interval = 1800  # Set the refresh interval in seconds (e.g., 1800 seconds = 30 minutes)
+        refresh_interval = 30  # Set the refresh interval in seconds (e.g., 1800 seconds = 30 minutes)
         auto_refresh_weather(city_to_refresh, refresh_interval)
 
 
